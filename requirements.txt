@@ -1,0 +1,7 @@
+# WAJIB
+streamlit
+paho-mqtt
+pandas
+plotly
+numpy
+scikit-learn
