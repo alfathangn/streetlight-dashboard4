@@ -14,8 +14,8 @@ warnings.filterwarnings('ignore')
 
 # ==================== KONFIGURASI MQTT ====================
 MQTT_BROKER = "broker.hivemq.com"
-MQTT_PORT = 8883
-MQTT_TOPIC_SENSOR = "iot/streetlight/data"
+MQTT_PORT = 1883
+MQTT_TOPIC_SENSOR = "iot/streetlight"
 
 # ==================== SESSION STATE INIT ====================
 if "mqtt_connected" not in st.session_state:
@@ -610,4 +610,5 @@ st.markdown("""
 # Auto refresh
 time.sleep(3)
 st.rerun()
+
 
